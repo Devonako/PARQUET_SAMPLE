@@ -1,0 +1,13 @@
+{
+   "namespace": "example.avro",
+   "type": "record",
+   "name": "org.apache.avro.file.Header",
+   "fields":
+   [
+      {"name": "emp_id", "type": ["int", "null"]},
+      {"name": "dept_id",  "type": ["int", "null"]},
+      {"name": "name", "type": ["string", "null"]},
+      {"name": "created_at", "type": ["string", "null"]},
+      {"name": "updated_at", "type":["string", "null"]}
+   ] 
+ }
